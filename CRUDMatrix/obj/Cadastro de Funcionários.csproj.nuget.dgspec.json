@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\CRUD MATRIX\\BACKUP SISTEMA\\Cadastro de Funcionários\\CRUDMatrix\\Cadastro de Funcionários.csproj": {}
+    "C:\\Users\\Sora\\Documents\\GIT\\Cadastro-Funcionarios-CRUD\\CRUDMatrix\\Cadastro de Funcionários.csproj": {}
   },
   "projects": {
-    "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\CRUD MATRIX\\BACKUP SISTEMA\\Cadastro de Funcionários\\CRUDMatrix\\Cadastro de Funcionários.csproj": {
+    "C:\\Users\\Sora\\Documents\\GIT\\Cadastro-Funcionarios-CRUD\\CRUDMatrix\\Cadastro de Funcionários.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\CRUD MATRIX\\BACKUP SISTEMA\\Cadastro de Funcionários\\CRUDMatrix\\Cadastro de Funcionários.csproj",
+        "projectUniqueName": "C:\\Users\\Sora\\Documents\\GIT\\Cadastro-Funcionarios-CRUD\\CRUDMatrix\\Cadastro de Funcionários.csproj",
         "projectName": "Cadastro de Funcionários",
-        "projectPath": "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\CRUD MATRIX\\BACKUP SISTEMA\\Cadastro de Funcionários\\CRUDMatrix\\Cadastro de Funcionários.csproj",
-        "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\OneDrive\\Área de Trabalho\\CRUD MATRIX\\BACKUP SISTEMA\\Cadastro de Funcionários\\CRUDMatrix\\obj\\",
+        "projectPath": "C:\\Users\\Sora\\Documents\\GIT\\Cadastro-Funcionarios-CRUD\\CRUDMatrix\\Cadastro de Funcionários.csproj",
+        "packagesPath": "C:\\Users\\Sora\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sora\\Documents\\GIT\\Cadastro-Funcionarios-CRUD\\CRUDMatrix\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\richa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net5.0": {
@@ -81,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
