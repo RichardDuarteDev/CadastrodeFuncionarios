@@ -1,44 +1,12 @@
-ARQUITETURA DO PROJETO E INTEGRAÇÃO
+Descrição do Projeto (Fluxo da Arquitetura Híbrida)
 
+1 - A aplicação principal é uma aplicação monolítica MVC com seu próprio banco de dados.
 
+2 - Ela se conecta ao Back-End de um sistema externo (camada de negócios) por meio de uma API interna, consumindo dados e serviços da aplicação de integração.
 
-Projeto: Sistema de Integração  
-Modelo de Arquitetura em Três Camadas
+3 - Simultaneamente, também consome uma API pública externa, integrando dados adicionais ao sistema.
 
-Camada de Apresentação (Front-end):
+4 - A lógica de apresentação e orquestração das integrações acontece no MVC, que unifica os dados consumidos das APIs com os seus próprios dados locais.
 
+Com isso, a aplicação centraliza as interfaces e expõe funcionalidades unificadas ao usuário final, mesmo com os dados vindo de diferentes fontes.
 
-+---------------------+
-|    SI Front-end     |
-+---------------------+
-           |
-           v
-Camada de Lógica (Back-end):
-+---------------------+         +----------------------+
-|    SI Back-end      |<------->|  Banco da BL (SI)    |
-+---------------------+         +----------------------+
-
-           ^
-           |
-           |
-+---------------------+         
-|        MVC          |<---------------------------+
-+---------------------+                            |
-           |                                       |
-           v                                       |
-+---------------------+                            |
-| Banco do MVC (local)|                            |
-+---------------------+                            |
-                                                   |
-                                                   |
-+---------------------+                            |
-|     API Pública     |<---------------------------+
-+---------------------+
-
-Legenda:
-- SI Front-end: Interface visual do sistema de integração
-- SI Back-end: Camada lógica da aplicação (API interna)
-- MVC: Aplicação monolítica que consome a API e possui banco próprio
-- API Pública: Interface externa exposta pela aplicação
-- Banco da BL: Banco da lógica de negócio
-- Banco do MVC: Banco próprio do sistema MVC
